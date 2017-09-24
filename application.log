@@ -1,0 +1,951 @@
+"2017-08-31 18:36:38 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 8948 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 18:36:38 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 18:36:38 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 18:36:38 PDT 2017]; root of context hierarchy
+""2017-08-31 18:36:41 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 18:36:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 18:36:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2619 ms
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 18:36:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 18:36:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:36:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 18:36:42 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 18:36:42 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 18:36:42 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 18:36:42 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 18:36:42 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 18:36:43 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 18:36:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:36:43 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'questionAnswerController': Unsatisfied dependency expressed through field 'questionAnswerService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.survey.service.QuestionAnswerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+""2017-08-31 18:36:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:36:43 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2017-08-31 18:36:43 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2017-08-31 18:36:43 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field questionAnswerService in com.survey.controller.QuestionAnswerController required a bean of type 'com.survey.service.QuestionAnswerService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.survey.service.QuestionAnswerService' in your configuration.
+
+""2017-08-31 18:41:06 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 2972 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 18:41:06 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 18:41:06 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 18:41:06 PDT 2017]; root of context hierarchy
+""2017-08-31 18:41:08 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 18:41:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 18:41:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1834 ms
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 18:41:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 18:41:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:41:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 18:41:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 18:41:09 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 18:41:09 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 18:41:09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 18:41:09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 18:41:10 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 18:41:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:41:10 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'questionAnswerController': Unsatisfied dependency expressed through field 'questionAnswerService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.survey.service.QuestionAnswerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+""2017-08-31 18:41:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 18:41:10 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2017-08-31 18:41:10 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2017-08-31 18:41:10 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field questionAnswerService in com.survey.controller.QuestionAnswerController required a bean of type 'com.survey.service.QuestionAnswerService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.survey.service.QuestionAnswerService' in your configuration.
+
+""2017-08-31 19:55:01 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 3836 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 19:55:01 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 19:55:01 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:55:01 PDT 2017]; root of context hierarchy
+""2017-08-31 19:55:04 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 19:55:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 19:55:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3104 ms
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 19:55:04 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 19:55:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:55:05 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 19:55:05 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 19:55:05 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 19:55:05 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 19:55:05 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 19:55:05 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 19:55:06 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 19:55:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:55:06 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:55:01 PDT 2017]; root of context hierarchy
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:07 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:07 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 19:55:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 19:55:07 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 6.661 seconds (JVM running for 7.103)
+""2017-08-31 19:55:51 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 5820 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 19:55:51 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 19:55:51 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:55:51 PDT 2017]; root of context hierarchy
+""2017-08-31 19:55:53 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 19:55:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 19:55:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2259 ms
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 19:55:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 19:55:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:55:54 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 19:55:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 19:55:55 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 19:55:55 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 19:55:55 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 19:55:55 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 19:55:55 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 19:55:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:55:56 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:55:51 PDT 2017]; root of context hierarchy
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:55:57 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 19:55:57 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 19:55:57 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 6.055 seconds (JVM running for 6.412)
+""2017-08-31 19:58:05 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 4388 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 19:58:05 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 19:58:05 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:58:05 PDT 2017]; root of context hierarchy
+""2017-08-31 19:58:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 19:58:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 19:58:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2128 ms
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 19:58:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 19:58:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:58:08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 19:58:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 19:58:08 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 19:58:08 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 19:58:08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 19:58:08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 19:58:09 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 19:58:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 19:58:09 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 19:58:05 PDT 2017]; root of context hierarchy
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:58:10 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 19:58:10 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 19:58:10 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 19:58:10 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 5.73 seconds (JVM running for 6.236)
+""2017-08-31 19:59:21 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-31 19:59:21 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-08-31 19:59:21 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+""2017-08-31 19:59:21 [http-nio-8090-exec-1] INFO  c.s.controller.QuestionController - Fetching category with id 11
+""2017-08-31 19:59:27 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 20:00:16 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 13304 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 20:00:16 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 20:00:16 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:00:16 PDT 2017]; root of context hierarchy
+""2017-08-31 20:00:19 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 20:00:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 20:00:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2833 ms
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 20:00:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 20:00:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:00:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 20:00:20 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 20:00:20 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 20:00:20 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 20:00:20 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 20:00:20 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 20:00:21 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 20:00:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:00:21 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:00:16 PDT 2017]; root of context hierarchy
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:00:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:00:22 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 20:00:22 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 20:00:22 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 6.478 seconds (JVM running for 6.808)
+""2017-08-31 20:01:52 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 2732 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 20:01:52 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 20:01:52 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:01:52 PDT 2017]; root of context hierarchy
+""2017-08-31 20:01:54 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 20:01:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 20:01:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2016 ms
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 20:01:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 20:01:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:01:55 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 20:01:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 20:01:55 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 20:01:55 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 20:01:55 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 20:01:55 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 20:01:56 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 20:01:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:01:56 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:01:52 PDT 2017]; root of context hierarchy
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:01:57 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:01:57 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 20:01:57 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 20:01:57 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 5.812 seconds (JVM running for 6.14)
+""2017-08-31 20:22:13 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 1520 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-08-31 20:22:13 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-08-31 20:22:13 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:22:13 PDT 2017]; root of context hierarchy
+""2017-08-31 20:22:15 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-08-31 20:22:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-31 20:22:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-08-31 20:22:16 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-08-31 20:22:16 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3841 ms
+""2017-08-31 20:22:17 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-31 20:22:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-31 20:22:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-31 20:22:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-31 20:22:17 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-31 20:22:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:22:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-31 20:22:18 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-31 20:22:18 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-31 20:22:18 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-31 20:22:18 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-31 20:22:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-08-31 20:22:18 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-08-31 20:22:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-31 20:22:19 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Thu Aug 31 20:22:13 PDT 2017]; root of context hierarchy
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:22:20 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-08-31 20:22:20 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-31 20:22:20 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-08-31 20:22:20 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 8.247 seconds (JVM running for 10.083)
+""2017-08-31 20:24:38 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-31 20:24:38 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-08-31 20:24:38 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+""2017-08-31 20:24:38 [http-nio-8090-exec-1] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 20:24:48 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 20:25:03 [http-nio-8090-exec-5] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 20:25:08 [http-nio-8090-exec-6] INFO  c.s.controller.CategoryController - Fetching category with id 2
+""2017-08-31 21:29:46 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:18:20 [http-nio-8090-exec-4] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:18:58 [http-nio-8090-exec-6] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:19:15 [http-nio-8090-exec-9] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:19:26 [http-nio-8090-exec-10] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:19:44 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:20:16 [http-nio-8090-exec-4] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:20:23 [http-nio-8090-exec-6] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:22:17 [http-nio-8090-exec-9] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:22:58 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:23:29 [http-nio-8090-exec-4] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:23:32 [http-nio-8090-exec-6] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:23:33 [http-nio-8090-exec-7] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-08-31 23:23:35 [http-nio-8090-exec-9] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-09-04 17:03:23 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 9084 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-09-04 17:03:23 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-04 17:03:23 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bfa9431: startup date [Mon Sep 04 17:03:23 PDT 2017]; root of context hierarchy
+""2017-09-04 17:03:24 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-04 17:03:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-04 17:03:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-04 17:03:24 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-04 17:03:24 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1811 ms
+""2017-09-04 17:03:25 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-04 17:03:25 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-04 17:03:25 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-04 17:03:25 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-04 17:03:25 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-04 17:03:25 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:03:25 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-04 17:03:25 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-04 17:03:25 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-04 17:03:25 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-04 17:03:25 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-04 17:03:26 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-04 17:03:26 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-04 17:03:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:03:27 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bfa9431: startup date [Mon Sep 04 17:03:23 PDT 2017]; root of context hierarchy
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:03:27 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:03:28 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:03:28 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-04 17:03:28 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-04 17:03:28 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 5.527 seconds (JVM running for 6.905)
+""2017-09-04 17:04:28 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-04 17:04:28 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-04 17:04:28 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 85 ms
+""2017-09-04 17:04:28 [http-nio-8090-exec-1] INFO  c.s.controller.QuestionController - Fetching category with id 2
+""2017-09-04 17:04:46 [http-nio-8090-exec-2] INFO  c.s.controller.QuestionController - Updating category with id 5
+""2017-09-04 17:06:13 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-09-04 17:06:13 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bfa9431: startup date [Mon Sep 04 17:03:23 PDT 2017]; root of context hierarchy
+""2017-09-04 17:06:13 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-04 17:06:13 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:07:30 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 7044 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-09-04 17:07:30 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-04 17:07:30 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:07:30 PDT 2017]; root of context hierarchy
+""2017-09-04 17:07:32 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-04 17:07:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-04 17:07:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2226 ms
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-04 17:07:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-04 17:07:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:07:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-04 17:07:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-04 17:07:33 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-04 17:07:33 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-04 17:07:33 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-04 17:07:33 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-04 17:07:34 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-04 17:07:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:07:34 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:07:30 PDT 2017]; root of context hierarchy
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:07:35 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:07:35 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-04 17:07:35 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-04 17:07:35 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 5.787 seconds (JVM running for 6.344)
+""2017-09-04 17:07:38 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-04 17:07:38 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-04 17:07:38 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+""2017-09-04 17:07:43 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-09-04 17:07:43 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:07:30 PDT 2017]; root of context hierarchy
+""2017-09-04 17:07:43 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-04 17:07:43 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:34:04 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 9588 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPINew\SurveyRestAPI)
+""2017-09-04 17:34:04 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-04 17:34:04 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:34:04 PDT 2017]; root of context hierarchy
+""2017-09-04 17:34:06 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-04 17:34:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-04 17:34:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2028 ms
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-04 17:34:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-04 17:34:07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:34:07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-04 17:34:07 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-04 17:34:07 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-04 17:34:07 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-04 17:34:07 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-04 17:34:08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-04 17:34:08 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-04 17:34:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 17:34:09 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:34:04 PDT 2017]; root of context hierarchy
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:34:09 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 17:34:10 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-04 17:34:10 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-04 17:34:10 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 5.933 seconds (JVM running for 6.468)
+""2017-09-04 17:35:49 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-04 17:35:49 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-04 17:35:49 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+""2017-09-04 17:37:23 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-09-04 17:37:23 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 17:34:04 PDT 2017]; root of context hierarchy
+""2017-09-04 17:37:23 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-04 17:37:23 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 19:26:04 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 6380 (C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPI\target\classes started by bharat in C:\Bharat\Work\API\springRest\SurveyAPI\SurveyRestAPI)
+""2017-09-04 19:26:04 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-04 19:26:04 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 19:26:04 PDT 2017]; root of context hierarchy
+""2017-09-04 19:26:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-04 19:26:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-04 19:26:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3114 ms
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-04 19:26:07 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-04 19:26:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-04 19:26:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-04 19:26:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-04 19:26:09 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-04 19:26:09 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-04 19:26:09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-04 19:26:09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-04 19:26:10 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-04 19:26:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-04 19:26:11 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-04 19:26:11 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 19:26:04 PDT 2017]; root of context hierarchy
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 19:26:12 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-04 19:26:13 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-04 19:26:13 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-04 19:26:13 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 9.225 seconds (JVM running for 9.911)
+""2017-09-04 19:26:16 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-04 19:26:16 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-04 19:26:16 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+""2017-09-04 19:26:21 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2017-09-04 19:26:21 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a3b5b47: startup date [Mon Sep 04 19:26:04 PDT 2017]; root of context hierarchy
+""2017-09-04 19:26:21 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-04 19:26:21 [RMI TCP Connection(2)-192.168.0.14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-06 20:36:14 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 5392 (C:\Users\bharat\git\SurveyRestAPI\target\classes started by bharat in C:\Users\bharat\git\SurveyRestAPI)
+""2017-09-06 20:36:14 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-06 20:36:14 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Wed Sep 06 20:36:14 PDT 2017]; root of context hierarchy
+""2017-09-06 20:36:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-06 20:36:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-06 20:36:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2499 ms
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-06 20:36:16 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-06 20:36:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-06 20:36:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-06 20:36:18 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-06 20:36:18 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-06 20:36:18 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-06 20:36:19 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-06 20:36:19 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-06 20:36:20 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-06 20:36:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-06 20:36:21 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Wed Sep 06 20:36:14 PDT 2017]; root of context hierarchy
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-06 20:36:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-06 20:36:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-06 20:36:23 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-06 20:36:23 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 9.983 seconds (JVM running for 10.601)
+""2017-09-06 20:37:02 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-06 20:37:02 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-06 20:37:02 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+""2017-09-06 20:37:02 [http-nio-8090-exec-1] INFO  c.s.controller.QuestionController - Fetching category with id 11
+""2017-09-08 08:09:48 [main] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 10048 (C:\Users\bharat\git\SurveyRestAPI\target\classes started by bharat in C:\Users\bharat\git\SurveyRestAPI)
+""2017-09-08 08:09:48 [main] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-08 08:09:49 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Fri Sep 08 08:09:49 PDT 2017]; root of context hierarchy
+""2017-09-08 08:09:52 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-08 08:09:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-08 08:09:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3502 ms
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-08 08:09:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-08 08:09:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-08 08:09:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-08 08:09:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-08 08:09:53 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-08 08:09:53 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-08 08:09:53 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-08 08:09:54 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-08 08:09:54 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-08 08:09:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-08 08:09:55 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a2da20: startup date [Fri Sep 08 08:09:49 PDT 2017]; root of context hierarchy
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-08 08:09:56 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-08 08:09:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-08 08:09:56 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-08 08:09:56 [main] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 8.475 seconds (JVM running for 9.108)
+""2017-09-14 20:19:51 [restartedMain] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 11452 (C:\Users\bharat\git\SurveyRestAPI\target\classes started by bharat in C:\Users\bharat\git\SurveyRestAPI)
+""2017-09-14 20:19:51 [restartedMain] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-14 20:19:51 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Thu Sep 14 20:19:51 PDT 2017]; root of context hierarchy
+""2017-09-14 20:19:53 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-14 20:19:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-14 20:19:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2936 ms
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-14 20:19:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-14 20:19:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:19:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-14 20:19:55 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-14 20:19:55 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-14 20:19:55 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-14 20:19:55 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-14 20:19:56 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-14 20:19:56 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-14 20:19:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:19:57 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Thu Sep 14 20:19:51 PDT 2017]; root of context hierarchy
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:19:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-09-14 20:19:59 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-14 20:19:59 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-14 20:19:59 [restartedMain] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 8.575 seconds (JVM running for 9.593)
+""2017-09-14 20:22:16 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-14 20:22:16 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-14 20:22:16 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+""2017-09-14 20:23:53 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Thu Sep 14 20:19:51 PDT 2017]; root of context hierarchy
+""2017-09-14 20:23:53 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-14 20:23:53 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:23:54 [restartedMain] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 11452 (C:\Users\bharat\git\SurveyRestAPI\target\classes started by bharat in C:\Users\bharat\git\SurveyRestAPI)
+""2017-09-14 20:23:54 [restartedMain] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-14 20:23:54 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e14687d: startup date [Thu Sep 14 20:23:54 PDT 2017]; root of context hierarchy
+""2017-09-14 20:23:54 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-14 20:23:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-14 20:23:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 667 ms
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-14 20:23:54 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:23:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-14 20:23:55 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-14 20:23:55 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:23:55 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e14687d: startup date [Thu Sep 14 20:23:54 PDT 2017]; root of context hierarchy
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-14 20:23:55 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-14 20:23:55 [restartedMain] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 1.39 seconds (JVM running for 245.972)
+""2017-09-14 20:24:00 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-14 20:24:00 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-14 20:24:00 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+""2017-09-14 20:24:11 [Thread-11] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e14687d: startup date [Thu Sep 14 20:23:54 PDT 2017]; root of context hierarchy
+""2017-09-14 20:24:11 [Thread-11] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-14 20:24:11 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:24:11 [restartedMain] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 11452 (C:\Users\bharat\git\SurveyRestAPI\target\classes started by bharat in C:\Users\bharat\git\SurveyRestAPI)
+""2017-09-14 20:24:11 [restartedMain] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-14 20:24:11 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ca608ff: startup date [Thu Sep 14 20:24:11 PDT 2017]; root of context hierarchy
+""2017-09-14 20:24:11 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-14 20:24:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-14 20:24:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 626 ms
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-14 20:24:12 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:24:12 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-14 20:24:12 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-14 20:24:12 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-14 20:24:12 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ca608ff: startup date [Thu Sep 14 20:24:11 PDT 2017]; root of context hierarchy
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-14 20:24:12 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-14 20:24:12 [restartedMain] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 1.326 seconds (JVM running for 263.104)
+""2017-09-23 21:27:33 [restartedMain] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 11152 (C:\Bharat\Work\javawork\github\surveyRestAPI\target\classes started by bharat in C:\Bharat\Work\javawork\github\surveyRestAPI)
+""2017-09-23 21:27:33 [restartedMain] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-23 21:27:33 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Sat Sep 23 21:27:33 PDT 2017]; root of context hierarchy
+""2017-09-23 21:27:35 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-23 21:27:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-23 21:27:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2421 ms
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-23 21:27:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-23 21:27:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-23 21:27:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-23 21:27:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-23 21:27:37 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-23 21:27:37 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-23 21:27:37 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-23 21:27:37 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-23 21:27:37 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-23 21:27:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-23 21:27:39 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Sat Sep 23 21:27:33 PDT 2017]; root of context hierarchy
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:27:39 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:27:40 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:27:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-09-23 21:27:40 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-23 21:27:40 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-23 21:27:40 [restartedMain] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 8.563 seconds (JVM running for 9.061)
+""2017-09-23 21:28:20 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-23 21:28:20 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-23 21:28:20 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+""2017-09-23 21:29:57 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac1942c: startup date [Sat Sep 23 21:27:33 PDT 2017]; root of context hierarchy
+""2017-09-23 21:29:57 [Thread-7] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-09-23 21:29:57 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-23 21:30:43 [restartedMain] INFO  com.survey.SurveyRestApiStart - Starting SurveyRestApiStart on DESKTOP-KQG4KLG with PID 4884 (C:\Bharat\Work\javawork\github\surveyRestAPI\target\classes started by bharat in C:\Bharat\Work\javawork\github\surveyRestAPI)
+""2017-09-23 21:30:43 [restartedMain] INFO  com.survey.SurveyRestApiStart - No active profile set, falling back to default profiles: default
+""2017-09-23 21:30:43 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45e7e652: startup date [Sat Sep 23 21:30:43 PDT 2017]; root of context hierarchy
+""2017-09-23 21:30:46 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+""2017-09-23 21:30:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-09-23 21:30:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring embedded WebApplicationContext
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2749 ms
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-09-23 21:30:46 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-09-23 21:30:47 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-09-23 21:30:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-09-23 21:30:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-09-23 21:30:47 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-09-23 21:30:47 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-09-23 21:30:47 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-09-23 21:30:47 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+""2017-09-23 21:30:48 [restartedMain] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+""2017-09-23 21:30:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-09-23 21:30:48 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45e7e652: startup date [Sat Sep 23 21:30:43 PDT 2017]; root of context hierarchy
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.updateCategory(long,com.survey.model.Category)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.deleteCategory(long)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.CategoryController.createCategory(com.survey.model.Category,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.CategoryDTO> com.survey.controller.CategoryController.getCategory(long)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.CategoryDTO>> com.survey.controller.CategoryController.listAllcategorys()
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionAnswerController.createQuestionAnswer(com.survey.dto.QuestionAnswerDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/answer/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionAnswerDTO> com.survey.controller.QuestionAnswerController.updateQuestionAnswer(long,com.survey.dto.QuestionAnswerDTO)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.survey.dto.QuestionDTO>> com.survey.controller.QuestionController.listAllQuestions()
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.updateQuestion(long,com.survey.dto.QuestionDTO)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.survey.dto.QuestionDTO> com.survey.controller.QuestionController.getQuestion(long)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.deleteQuestion(long)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/question],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.survey.controller.QuestionController.createQuestion(com.survey.dto.QuestionDTO,org.springframework.web.util.UriComponentsBuilder)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-09-23 21:30:49 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+""2017-09-23 21:30:49 [restartedMain] INFO  com.survey.SurveyRestApiStart - Started SurveyRestApiStart in 6.438 seconds (JVM running for 6.837)
+""2017-09-23 21:31:19 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/SurveyRestAPI] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-09-23 21:31:19 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2017-09-23 21:31:19 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+"
