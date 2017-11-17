@@ -31,9 +31,12 @@ public class QuestionController {
 	QuestionService questionService;
 
 	
+	//produces = "application/json"
 	@RequestMapping(value = "/question", method = RequestMethod.GET)
 	public ResponseEntity<List<QuestionDTO>> listAllQuestions() {
-
+       
+		logger.info("Response : "+questionService.findAllQuestions());
+		
 		return questionService.findAllQuestions();
 
 	}
